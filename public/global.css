@@ -1,0 +1,29 @@
+::-webkit-scrollbar {
+    width: 8px;     /* Tamaño del scroll en vertical */
+    height: 8px;    /* Tamaño del scroll en horizontal */
+    display: none;  /* Ocultar scroll */
+}
+
+@media only screen and (max-width: 600px) {
+    .btn-flotante {
+        font-size: 14px;
+        padding: 12px 20px;
+        bottom: 20px;
+        right: 20px;
+    }
+}
+
+.hand{
+    cursor: pointer;
+}
+
+.bkg-button-cart{
+   position: relative;
+   padding: 1em ;
+   width: 2em;
+   height: 2em;
+   background-color: #1d1f21 !important;
+   opacity: 0.3;
+   border: 0.2em solid #1E87F0; 
+}
+
